@@ -16,13 +16,12 @@ I am **Yihao Li**, a researcher and engineer interested in turning complex quest
 
 ## Employment
 
-- **Position**, Institution or Laboratory, City, Country — *Year–present*
-- **Position**, Institution or Company, City, Country — *Year–Year*
+- **[2026/01–present]** Assistant Professor, School of Integrated Circuits, Nanjing University of Science and Technology, Nanjing, China.
 
 ## Education Experience
 
-- **Degree**, Department, Institution, City, Country — *Year–Year*
-- **Degree**, Department, Institution, City, Country — *Year–Year*
+- **[2016/09–2020/06]** Bachelor of Engineering, Yingcai Honors College of UESTC, University of Electronic Science and Technology of China, Chengdu, China.
+- **[2020/09–2025/12]** Doctor of Philosophy in Engineering, Department of Automation, Tsinghua University, Beijing, China. **Supervisor:** [**Prof. Xiaoping Zheng**](https://www.au.tsinghua.edu.cn/info/1110/1580.htm)
 
 {% include_relative _includes/publications.md %}
 
