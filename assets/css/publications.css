@@ -46,6 +46,18 @@
   line-height: 1.32;
 }
 
+.pub-number {
+  margin-right: .28rem;
+  color: var(--heading);
+}
+
+.pub-authors strong { color: var(--heading); }
+
+.pub-authors sup {
+  margin-left: .08rem;
+  font-weight: 700;
+}
+
 .pub-authors,
 .pub-venue { margin: 0 0 .16rem; }
 
@@ -77,4 +89,3 @@
   .pub-row { grid-template-columns: 1fr; }
   .pub-media { max-width: 280px; }
 }
-

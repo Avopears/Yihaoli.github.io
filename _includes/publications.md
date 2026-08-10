@@ -14,14 +14,17 @@
         {% endif %}
         <div class="pub-content">
           <h3 class="pub-title">
+            {% if publication.number %}<span class="pub-number">{{ publication.number }}.</span>{% endif %}
             {% if publication.page %}<a href="{{ publication.page }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}
           </h3>
           <p class="pub-authors">{{ publication.authors }}</p>
           <p class="pub-venue"><em>{{ publication.conference }}</em></p>
           <div class="pub-links">
-            {% if publication.pdf %}<a href="{{ publication.pdf | relative_url }}">PDF</a>{% endif %}
+            {% if publication.pdf %}
+              {% if publication.pdf contains '://' %}<a href="{{ publication.pdf }}">PDF</a>{% else %}<a href="{{ publication.pdf | relative_url }}">PDF</a>{% endif %}
+            {% endif %}
             {% if publication.code %}<a href="{{ publication.code }}">Code</a>{% endif %}
-            {% if publication.page %}<a href="{{ publication.page }}">Project Page</a>{% endif %}
+            {% if publication.page %}<a href="{{ publication.page }}">Article Website</a>{% endif %}
             {% if publication.bibtex %}<a href="{{ publication.bibtex | relative_url }}">BibTeX</a>{% endif %}
             {% if publication.notes %}<strong>{{ publication.notes }}</strong>{% endif %}
           </div>

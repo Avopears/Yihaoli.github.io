@@ -1,15 +1,36 @@
-# Add publications under `main` using the commented example below.
-# Remove the leading `#` characters and replace the placeholder values.
-main: []
+main:
+  - number: 5
+    title: "KAN-empowered Fano-resonant meta-array coupler for high-sensitivity terahertz detection in HEMTs"
+    authors: "<strong>Yihao Li</strong><sup>#</sup>, Yuxuan Zhai, Jiandong Sun, Shengji Wang, Haoran Wang, Xiaojiao Deng, Xinhua Li, Shijie Wang, Chengkuo Lee, Xiaoping Zheng"
+    conference_short: "OLEN"
+    conference: "Optics and Lasers in Engineering, 2025, 195: 109253."
+    page: "https://doi.org/10.1016/j.optlaseng.2025.109253"
 
-# main:
-#   - title: "Your publication title"
-#     authors: "Yihao Li, Collaborator Name"
-#     conference_short: "JOURNAL"
-#     conference: "Journal or Conference, 2026"
-#     image: "assets/img/publication-thumbnail.png"
-#     pdf: "assets/files/paper.pdf"
-#     page: "https://example.com/project"
-#     code: "https://github.com/example/project"
-#     notes: "Featured work"
+  - number: 4
+    title: "Enhanced THz self-mixing detection in TeraFETs via asymmetric interdigitated grating gates coupled to SRR metasurface arrays"
+    authors: "<strong>Yihao Li</strong><sup>#</sup>, Shengji Wang, Zhengyang You, Xiaojiao Deng, Xinhua Li"
+    conference_short: "IRMMW-THz"
+    conference: "2025 50th International Conference on Infrared, Millimeter, and Terahertz Waves (IRMMW-THz), 2025, pp. 1–2."
+    page: "https://ieeexplore.ieee.org/document/11320068"
 
+  - number: 3
+    title: "Deep-learning-driven design of multiplexed meta-array couplers for broadband HEMT terahertz detection"
+    authors: "<strong>Yihao Li</strong><sup>#</sup>, Ran Chen, Jiandong Sun, Xiaojiao Deng, Xinhua Li, Yinong Xie, Shengji Wang, Zhengyang You, Chenyang Qin, Xiaoping Zheng"
+    conference_short: "PR"
+    conference: "Photonics Research, 2025, 13(5): 1290–1301."
+    page: "https://opg.optica.org/prj/fulltext.cfm?uri=prj-13-5-1290"
+    pdf: "https://opg.optica.org/viewmedia.cfm?uri=prj-13-5-1290&seq=0"
+
+  - number: 2
+    title: "Meta-Atom-Based Ultra-Enhanced Localized Field Coupler for Terahertz Detectors"
+    authors: "<strong>Yihao Li</strong><sup>#</sup>, Shengji Wang, Zhengyang You, Yinong Xie, Xiaojiao Deng, Xinhua Li"
+    conference_short: "THz-Bio"
+    conference: "China National Conference on Terahertz Biophysics, 2024, pp. 47–50."
+    page: "https://doi.org/10.1007/978-981-96-4886-3_8"
+
+  - number: 1
+    title: "A high-performance terahertz detector based on a graded channel GaN high-electron-mobility transistor with a recessed gate"
+    authors: "<strong>Yihao Li</strong><sup>#</sup>, Jiandong Sun, Chenyang Qin, Xiaojiao Deng, Xiaoping Zheng"
+    conference_short: "OM"
+    conference: "Optical Materials, 2024, 150: 115233."
+    page: "https://doi.org/10.1016/j.optmat.2024.115233"
