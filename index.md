@@ -4,7 +4,11 @@ layout: homepage
 
 ## About Me
 
-My name is **Yihao Li**. My academic background spans engineering, terahertz detection, metasurfaces, and neural-network-based modeling. I received my Bachelor of Engineering degree from the University of Electronic Science and Technology of China in Chengdu, China, in June 2020, and my Doctor of Philosophy in Engineering degree from Tsinghua University in Beijing, China, in December 2025. From February to July 2025, I was a joint PhD student in the Department of Electrical and Computer Engineering at the National University of Singapore, where I conducted research on metasurfaces. In January 2026, I joined the School of Integrated Circuits at Nanjing University of Science and Technology as an Assistant Professor. My current research focuses on terahertz diffractive deep neural networks (D2NNs) and tunable metastructures.
+I am Yihao Li, an Assistant Professor in the School of Integrated Circuits at Nanjing University of Science and Technology. My research lies at the intersection of terahertz technologies, metastructures, and intelligent photonic systems, with a particular focus on developing next-generation terahertz devices and computational approaches for sensing, imaging, and information processing.
+
+I received my B.Eng. degree from the University of Electronic Science and Technology of China (UESTC), Chengdu, China, in 2020, and my Ph.D. degree in Engineering from Tsinghua University, Beijing, China, in 2025. During my doctoral study, I established close research collaborations with the Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences, focusing on advanced terahertz detectors and semiconductor device technologies. From February to July 2025, I was a joint Ph.D. student in the Department of Electrical and Computer Engineering at the National University of Singapore, where I conducted research on metasurfaces and electromagnetic wave manipulation.
+
+My current research explores terahertz diffractive deep neural networks (D2NNs), reconfigurable metastructures, and intelligent terahertz sensing platforms, aiming to bridge the gap between physical devices and artificial intelligence through the co-design of electromagnetic structures and computational algorithms.
 
 ## Research Interests
 

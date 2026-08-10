@@ -130,6 +130,18 @@ a:focus-visible {
   transform: translateY(-2px);
 }
 
+.visitor-map {
+  width: 100%;
+  margin-top: 1.75rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.visitor-map img,
+.visitor-map iframe {
+  max-width: 100% !important;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -242,5 +254,6 @@ code {
   .profile-card { position: static; width: 100%; padding-top: 0; }
   .avatar { width: 110px; height: 110px; }
   main { width: 100%; float: none; padding-top: 1rem; }
-  .social-icons { display: none; }
+  .social-icons,
+  .visitor-map { display: none; }
 }
