@@ -1,0 +1,11 @@
+# Add collaborators, research groups, or partner institutions under `main`.
+main: []
+
+# main:
+#   - name: "Collaborator Name"
+#     affiliation: "University or Research Group"
+#     url: "https://example.com/"
+#   - name: "Partner Laboratory"
+#     affiliation: "Institution"
+#     url: "https://example.com/lab"
+

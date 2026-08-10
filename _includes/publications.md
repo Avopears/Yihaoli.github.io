@@ -1,4 +1,4 @@
-<h2 id="publications">Publications</h2>
+<h2 id="research-articles">Research Articles (as First<sup>#</sup> &amp; Corresponding<sup>*</sup> Author)</h2>
 
 {% if site.data.publications.main and site.data.publications.main.size > 0 %}
 <div class="publications">
@@ -34,4 +34,3 @@
 {% else %}
 <p class="empty-state">Publication entries will appear here after they are added to <code>_data/publications.yml</code>.</p>
 {% endif %}
-
