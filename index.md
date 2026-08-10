@@ -8,9 +8,9 @@ My name is **Yihao Li**. My academic background spans engineering, terahertz det
 
 ## Research Interests
 
-- **Primary research area:** describe the central topic that connects your work.
-- **Methods:** list the experiments, modeling, simulation, data analysis, or engineering methods you use.
-- **Applications:** explain the real-world problems or disciplines your research supports.
+1. **Terahertz Detectors:** Development of GaN HEMT-based direct detectors integrated with metastructures to explore the performance limits of terahertz detection.
+2. **Diffractive Neural Networks:** Design of functional diffractive deep neural networks (D2NNs) operating at terahertz and visible wavelengths.
+3. **AI-Driven Design of Devices and Functional Structures:** Design and optimization of devices and functional structures using deep neural networks.
 
 ## Employment
 
