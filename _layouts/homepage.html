@@ -23,7 +23,7 @@
     <div class="wrapper">
       <header class="profile-card">
         {% if site.avatar %}
-        <img class="avatar" src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.title }}">
+        <img class="avatar avatar-photo" src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.title }}">
         {% else %}
         <div class="avatar avatar-initials" aria-label="{{ site.title }}">{{ site.avatar_initials | default: 'YL' }}</div>
         {% endif %}

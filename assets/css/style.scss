@@ -75,6 +75,15 @@ a:focus-visible {
   box-shadow: 0 10px 30px rgba(24, 24, 27, .08);
 }
 
+.avatar-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .8rem;
+  object-fit: contain;
+  object-position: center;
+}
+
 .avatar-initials {
   place-items: center;
   background: linear-gradient(145deg, #f6eef9, #ded0e8);
@@ -238,7 +247,8 @@ code {
 @media (max-width: 900px) {
   .wrapper { width: min(100% - 32px, 720px); }
   .profile-card { position: static; width: auto; padding: 2.25rem 0 1.6rem; }
-  .avatar { width: 160px; height: 160px; }
+  .avatar-photo { width: min(100%, 240px); height: auto; }
+  .avatar-initials { width: 160px; height: 160px; }
   main { width: auto; float: none; padding: 1.6rem 0 3rem; border-top: 1px solid var(--border); }
 }
 
@@ -246,7 +256,8 @@ code {
   body { font-size: 16px; }
   .wrapper { width: min(100% - 28px, 720px); }
   .profile-card { padding-top: 1.6rem; }
-  .avatar { width: 136px; height: 136px; font-size: 3rem; }
+  .avatar-photo { width: min(100%, 240px); height: auto; }
+  .avatar-initials { width: 136px; height: 136px; font-size: 3rem; }
   h2 { font-size: 1.45rem; }
   .collaborator-list { grid-template-columns: 1fr; }
 }
