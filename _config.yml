@@ -1,0 +1,45 @@
+# Basic profile information
+title: Yihao Li
+position: Researcher / Engineer
+affiliation: Your Institution
+affiliation_link: "#"
+email: your.email@example.com
+avatar_initials: YL
+
+# Site address for this project repository
+url: https://avopears.github.io
+baseurl: /Yihaoli.github.io
+canonical: https://avopears.github.io/Yihaoli.github.io/
+
+# Search engine metadata
+lang: en-US
+keywords: Yihao Li, academic homepage, research, portfolio
+description: Yihao Li's academic homepage, research portfolio, publications, projects, and professional experience.
+
+# Profile links — leave a value empty to hide that icon.
+google_scholar:
+cv_link:
+github_link: https://github.com/Avopears
+linkedin:
+twitter:
+
+# Appearance
+font: Serif
+auto_dark_mode: true
+enable_footnote: true
+
+# Optional analytics. Example: G-XXXXXXXXXX
+google_analytics:
+
+# Minimal Light is the same Jekyll theme family used by the reference homepage.
+remote_theme: yaoyao-liu/minimal-light
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+

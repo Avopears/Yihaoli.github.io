@@ -1,0 +1,15 @@
+# Add publications under `main` using the commented example below.
+# Remove the leading `#` characters and replace the placeholder values.
+main: []
+
+# main:
+#   - title: "Your publication title"
+#     authors: "Yihao Li, Collaborator Name"
+#     conference_short: "JOURNAL"
+#     conference: "Journal or Conference, 2026"
+#     image: "assets/img/publication-thumbnail.png"
+#     pdf: "assets/files/paper.pdf"
+#     page: "https://example.com/project"
+#     code: "https://github.com/example/project"
+#     notes: "Featured work"
+
