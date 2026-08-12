@@ -1,11 +1,17 @@
-# Add collaborators, research groups, or partner institutions under `main`.
-main: []
+main:
+  - name: "Zeheng Wang"
+    title: "Hua-Shan Distinguished Professor"
+    affiliations:
+      - "Hangzhou Institute of Technology, Xidian University"
+      - "Faculty of Integrated Circuit, Xidian University"
+    email: "zenwang@outlook.com"
+    orcid: "0000-0002-6994-1234"
+    website: "https://website.zeheng.wang/"
 
-# main:
-#   - name: "Collaborator Name"
-#     affiliation: "University or Research Group"
-#     url: "https://example.com/"
-#   - name: "Partner Laboratory"
-#     affiliation: "Institution"
-#     url: "https://example.com/lab"
-
+  - name: "Shengji Wang"
+    title: "Visiting Scholar"
+    affiliations:
+      - "Department of Automation, Tsinghua University"
+      - "State Key Laboratory of Terahertz and Millimeter Waves, Department of Electrical Engineering, City University of Hong Kong"
+    email: "sjwang23@mails.tsinghua.edu.cn"
+    orcid: "0000-0003-1906-0006"

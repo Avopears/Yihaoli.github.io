@@ -214,16 +214,52 @@ code {
 .collaborator-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: .65rem 1.25rem;
+  gap: 1rem;
   padding: 0;
   list-style: none;
 }
 
-.collaborator-list li {
-  padding: .65rem .75rem;
+.collaborator-card {
+  padding: 1rem;
   border: 1px solid var(--border);
-  border-radius: .4rem;
+  border-radius: .55rem;
   background: var(--surface);
+}
+
+.collaborator-name {
+  margin: 0;
+  font-size: 1.18rem;
+}
+
+.collaborator-title {
+  margin: .1rem 0 .55rem;
+  color: var(--heading);
+  font-weight: 500;
+}
+
+.collaborator-affiliations {
+  margin: 0 0 .75rem;
+  padding-left: 1.05rem;
+  color: var(--muted);
+  font-size: .94rem;
+  line-height: 1.38;
+}
+
+.collaborator-affiliations li + li { margin-top: .3rem; }
+
+.collaborator-links {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  font-size: .9rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.collaborator-links i {
+  width: 1em;
+  margin-right: .25rem;
+  text-align: center;
 }
 
 @media (min-width: 901px) and (min-height: 860px) {
