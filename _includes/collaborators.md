@@ -5,7 +5,7 @@
 {% for collaborator in site.data.collaborators.main %}
   <li class="collaborator-card">
     <h3 class="collaborator-name">
-      {% if collaborator.website %}<a href="{{ collaborator.website }}" target="_blank" rel="noopener noreferrer">{{ collaborator.name }}</a>{% else %}{{ collaborator.name }}{% endif %}
+      {% if collaborator.profile %}<a href="{{ collaborator.profile }}" target="_blank" rel="noopener noreferrer">{{ collaborator.name }}</a>{% elsif collaborator.website %}<a href="{{ collaborator.website }}" target="_blank" rel="noopener noreferrer">{{ collaborator.name }}</a>{% else %}{{ collaborator.name }}{% endif %}
     </h3>
     {% if collaborator.title %}<p class="collaborator-title">{{ collaborator.title }}</p>{% endif %}
     {% if collaborator.affiliations %}
